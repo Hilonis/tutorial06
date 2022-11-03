@@ -1,0 +1,92 @@
+2.2111 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+7.3082 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1366, 768]. Using actual size
+9.1611 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001F43EAE1EE0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001F440B06520>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1366,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+9.1613 	EXP 	window1: mouseVisible = True
+9.1614 	EXP 	window1: mouseVisible = False
+9.1615 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+9.1615 	EXP 	window1: recordFrameIntervals = False
+9.3266 	EXP 	window1: recordFrameIntervals = True
+9.5107 	EXP 	Screen (0) actual frame rate measured at 59.86Hz
+9.5107 	EXP 	window1: recordFrameIntervals = False
+12.6878 	EXP 	Created fixation = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+12.7394 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+12.7475 	EXP 	Imported C:/Users/HILONI SHAH/Downloads/conditions.xlsx as conditions, 7 conditions, 3 params
+12.7524 	EXP 	Created sequence: random, trialTypes=7, nReps=1, seed=None
+12.7530 	EXP 	New trial (rep=0, index=0): {'reward_today': 40.0, 'future_reward': 55.0, 'delay': 62.0}
+12.8744 	EXP 	text: height = 0.05000000000000001
+12.8744 	EXP 	text: height = 0.05000000000000001
+12.8744 	EXP 	text: height = 0.05000000000000001
+12.8744 	EXP 	text: text = 'GBP 40.0 today or GBP 55.0 after 62.0 days'
+12.8744 	EXP 	fixation: autoDraw = True
+13.7426 	EXP 	text: autoDraw = True
+13.8760 	EXP 	fixation: autoDraw = False
+18.9806 	EXP 	New trial (rep=0, index=1): {'reward_today': 11.0, 'future_reward': 30.0, 'delay': 7.0}
+19.0043 	DATA 	Keypress: t
+19.0059 	EXP 	fixation: autoDraw = False
+19.0059 	EXP 	text: autoDraw = False
+19.0059 	EXP 	text: height = 0.05000000000000001
+19.0059 	EXP 	text: height = 0.05000000000000001
+19.0059 	EXP 	text: height = 0.05000000000000001
+19.0059 	EXP 	text: text = 'GBP 11.0 today or GBP 30.0 after 7.0 days'
+19.0059 	EXP 	fixation: autoDraw = True
+19.9932 	EXP 	text: autoDraw = True
+20.0097 	EXP 	fixation: autoDraw = False
+23.9122 	EXP 	New trial (rep=0, index=2): {'reward_today': 27.0, 'future_reward': 50.0, 'delay': 21.0}
+23.9238 	DATA 	Keypress: l
+23.9259 	EXP 	fixation: autoDraw = False
+23.9259 	EXP 	text: autoDraw = False
+23.9259 	EXP 	text: height = 0.05000000000000001
+23.9259 	EXP 	text: height = 0.05000000000000001
+23.9259 	EXP 	text: height = 0.05000000000000001
+23.9259 	EXP 	text: text = 'GBP 27.0 today or GBP 50.0 after 21.0 days'
+23.9259 	EXP 	fixation: autoDraw = True
+24.9263 	EXP 	fixation: autoDraw = False
+24.9263 	EXP 	text: autoDraw = True
+27.5644 	DATA 	Keypress: l
+27.5784 	EXP 	New trial (rep=0, index=3): {'reward_today': 67.0, 'future_reward': 75.0, 'delay': 119.0}
+27.5962 	EXP 	fixation: autoDraw = False
+27.5962 	EXP 	text: autoDraw = False
+27.5962 	EXP 	text: height = 0.05000000000000001
+27.5962 	EXP 	text: height = 0.05000000000000001
+27.5962 	EXP 	text: height = 0.05000000000000001
+27.5962 	EXP 	text: text = 'GBP 67.0 today or GBP 75.0 after 119.0 days'
+27.5962 	EXP 	fixation: autoDraw = True
+28.5926 	EXP 	text: autoDraw = True
+28.6092 	EXP 	fixation: autoDraw = False
+31.5978 	DATA 	Keypress: t
+31.6117 	EXP 	New trial (rep=0, index=4): {'reward_today': 49.0, 'future_reward': 60.0, 'delay': 89.0}
+31.6283 	EXP 	fixation: autoDraw = False
+31.6283 	EXP 	text: autoDraw = False
+31.6283 	EXP 	text: height = 0.05000000000000001
+31.6283 	EXP 	text: height = 0.05000000000000001
+31.6283 	EXP 	text: height = 0.05000000000000001
+31.6283 	EXP 	text: text = 'GBP 49.0 today or GBP 60.0 after 89.0 days'
+31.6283 	EXP 	fixation: autoDraw = True
+32.6260 	EXP 	text: autoDraw = True
+32.6423 	EXP 	fixation: autoDraw = False
+37.3967 	DATA 	Keypress: t
+37.4112 	EXP 	New trial (rep=0, index=5): {'reward_today': 78.0, 'future_reward': 80.0, 'delay': 162.0}
+37.4258 	EXP 	fixation: autoDraw = False
+37.4258 	EXP 	text: autoDraw = False
+37.4258 	EXP 	text: height = 0.05000000000000001
+37.4258 	EXP 	text: height = 0.05000000000000001
+37.4258 	EXP 	text: height = 0.05000000000000001
+37.4258 	EXP 	text: text = 'GBP 78.0 today or GBP 80.0 after 162.0 days'
+37.4258 	EXP 	fixation: autoDraw = True
+38.4255 	EXP 	fixation: autoDraw = False
+38.4255 	EXP 	text: autoDraw = True
+41.6448 	EXP 	New trial (rep=0, index=6): {'reward_today': 15.0, 'future_reward': 35.0, 'delay': 13.0}
+41.6563 	DATA 	Keypress: t
+41.6585 	EXP 	fixation: autoDraw = False
+41.6585 	EXP 	text: autoDraw = False
+41.6585 	EXP 	text: height = 0.05000000000000001
+41.6585 	EXP 	text: height = 0.05000000000000001
+41.6585 	EXP 	text: height = 0.05000000000000001
+41.6585 	EXP 	text: text = 'GBP 15.0 today or GBP 35.0 after 13.0 days'
+41.6585 	EXP 	fixation: autoDraw = True
+42.6589 	EXP 	fixation: autoDraw = False
+42.6589 	EXP 	text: autoDraw = True
+46.0121 	DATA 	Keypress: l
+46.0254 	EXP 	fixation: autoDraw = False
+46.0254 	EXP 	text: autoDraw = False
+46.2366 	EXP 	window1: mouseVisible = True
